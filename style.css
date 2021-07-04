@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.top-banner{
+    background: url(img/top-banner.png) no-repeat;
+
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 50px;
+}
+h1 span{
+    color: orange;
+}
+p{
+    color: #8d7474;
+    line-height: 1.7;
+}
+img{
+    width: 100%;
+}
+
+.dream-area{
+    background: url(img/dream-bg.png) no-repeat right;
+   
+}
+.btn{
+    text-decoration: none;
+    background: linear-gradient(
+    45deg
+    , lightsalmon, tomato);
+    border-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    margin-top: 5px;
+    
+}
+
+a:hover{
+    background: linear-gradient(
+    45deg
+    , rgb(238, 134, 93), rgb(241, 73, 43));
+    color: red;
+    color: white;
+}
+
+h2{
+    font-size: 40px;
+}
+.experience-area{
+    background: url(img/exp-bg.png) no-repeat left;
+   
+}
+.experience-area div{
+    box-shadow: 5px 7px 40px grey;
+    height: 70%;
+}
+.font{
+    font-size: 50px;
+    text-align: center;
+}
+
+.border{
+    border-left: 7px solid;
+    border-image: linear-gradient(
+    180deg
+    , lightsalmon, tomato);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+.border2{
+    border-left: 7px solid;
+    border-image: linear-gradient(
+    180deg
+    , blue, cyan);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+.border h3{
+    color: orange;
+}
+.border2 h3{
+    color: orange;
+}
+footer p{
+    text-align: center;
+}
+
+@media screen  and (max-width:1200px){
+    .half-width{
+        width: 80%;
+        margin: 10px 0;
+        margin-left:75px;
+    }
+    footer p{
+        clear: both;
+    }
+    
+}
+@media screen  and (max-width:768px){
+    .half-width{
+        width: 80%;
+        
+        margin-left:30px;
+    }
+
+    footer p{
+        clear: both;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .experience-area{
+        margin-top: 20px;
+        height: 100%;
+    }
+    .font{
+        text-align: left;
+        margin-left: 30px;
+    }
+    
+}
